@@ -51,12 +51,15 @@ h3.title a {
 		background: $white;
 		color: $color_tuatara;
 		a {
-			@include font-rem(20);
+			font-size: .875rem;
 			text-decoration: none;
 			color: $color_tuatara;
 			font-weight: bolder;
             &:hover {
                 color: $color_shark_dark;
+            .read-more {
+            	
+            }
             }
 		}
 		p {
@@ -65,9 +68,7 @@ h3.title a {
 	}
 }
 
-.read-more {
-	font-size: .875rem;
-}
+
 
 // quotes
 blockquote {
