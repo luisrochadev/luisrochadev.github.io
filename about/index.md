@@ -67,7 +67,7 @@ comments: false
 
 	<div class="life-event">
 		<h3>2010</h3>
-		<h3>Purchased DSLR and began learning photography</h3>
+		<h3>Began learning photography</h3>
 		<i class="em em-camera"></i>
 	</div>
 	
@@ -89,11 +89,6 @@ comments: false
 		<i class="em em-video_camera"></i>
 	</div>
 	
-	<div class="life-event">
-		<h3>1993</h3>
-		<h3>Born in San Diego, California</h3>
-		<i class="em em-round_pushpin"></i>
-	</div>
 
 	
 </div>
