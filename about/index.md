@@ -10,7 +10,7 @@ comments: false
     	-webkit-margin-after: 0em;
     	font-weight: 500;
     	color: #383838;
-    	font-size: 1.1em;
+    	font-size: 1.17em;
     }
 
     .life-event{
@@ -61,7 +61,7 @@ comments: false
 
 	<div class="life-event">
 		<h3>2011</h3>
-		<h3>Moved to San Francisco to enroll in SFSU</h3>
+		<h3>Moved to San Francisco</h3>
 		<i class="em em-bridge_at_night"></i>
 	</div>
 
