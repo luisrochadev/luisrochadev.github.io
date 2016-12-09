@@ -8,7 +8,7 @@ comments: false
 	h3{
 		-webkit-margin-before: 0em;
     	-webkit-margin-after: 0em;
-    	font-weight: 500;
+    	font-weight: 300;
     	color: #383838;
     	font-size: 1.17em;
     }
