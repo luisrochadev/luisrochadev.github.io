@@ -21,7 +21,7 @@ So... you want to learn to code. For whatever reason you have ended up staring a
 In review:
 
 * HTML defines the content of web pages
-* CSS to specify the layout of web pages
+* CSS specifies the layout and design of web pages
 * JavaScript programs the behavior of web pages and their elements
 
 It is for this reason that I recommend Javascript as the foundation to a emerging programmer's curriculum.
