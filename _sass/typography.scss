@@ -15,19 +15,24 @@
 // titles
 .title {
 	text-align: center;
-	font-weight: bold;
+	font-weight: 500;
 	> p {
 		text-align: center;
-		font-weight: bold;
+		font-weight: 500;
 	}
 	> a > p {
 		text-align: center;
-		font-weight: bold;
+		font-weight: 500;
+	}
+	> span > p {
+		text-align: center;
+		font-weight: 300;
+		color: $color_tuatara;
 	}
 }
 .post-title {
 	text-align: center;
-	font-weight: bold;
+	font-weight: 500;
 	margin-bottom: 3rem;
 }
 
