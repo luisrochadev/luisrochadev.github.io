@@ -20,8 +20,6 @@ So... you want to learn to code. For whatever reason you have ended up staring a
 
 In review:
 
-### Unordered Lists
-
 * HTML defines the content of web pages
 * CSS to specify the layout of web pages
 * JavaScript programs the behavior of web pages and their elements
