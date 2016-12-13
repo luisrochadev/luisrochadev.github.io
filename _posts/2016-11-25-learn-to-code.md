@@ -7,13 +7,8 @@ tags: [coding, bootcamp]
 comments: true
 ---
 
-<h2>Because The Internet</h2>
-In May of 2014, I attended rapper <a href="https://soundcloud.com/childish-gambino" target="_blank"> Childish Gambino's</a> Deep Web Tour supporting his recently released album: "Because The Internet". As I walked to the merch table, a gray sweater with bold pink lettering reading "LEARN TO CODE" caught my eye. I recognized the sweater from an Instagram photo he posted earlier that day. I was puzzled as to why a rapper/actor/writer/comedian was promoting coding of all things, but the sentiment stuck with me. This was about six month's before my journey into the world of web development began... and to this day I regret not buying that sweater.
-
-<img src="https://cdn1.thehunt.com/app/public/system/zine_images/1225286/hunt/aa937a544d2723d51cffdc21e825efb0.jpg"> 
-
-<h2><span>&</span>hearts;</h2>
-For whatever reason you have ended up on Google staring at the approximately 642,000k results that searching "Learn To Code" has brought you. You stare at complex articles and lessons and recall adding <a href="http://easy-html-tutorials.tumblr.com/fallingheartspreview" target="_blank"> falling hearts</a> to your MySpace profile back in 2007 and wonder if that's enough to get you by. You're actually not entirely off base. Those hearts are created by HTML and CSS, two of the core technologies for building web pages. HTML defines the content structure, while CSS provides visual layout. At it's core, the code you copied and pasted to your MySpace page probably looked something like this: 
+<h2>And Hearts;</h2>
+So... you want to learn to code. For whatever reason you have ended up staring at the approximately 642,000k results that a Google search has brought you. You stare at complex articles and lessons and recall adding <a href="http://easy-html-tutorials.tumblr.com/fallingheartspreview" target="_blank">falling hearts</a> to your MySpace profile back in 2007 and wonder if that's enough to get you by. You're actually not entirely off base. Those hearts are created by HTML and CSS, two of the core technologies for building web pages. HTML defines the content structure, while CSS provides visual layout. At it's core, the code you copied and pasted to your MySpace page probably looked something like this: 
 
 {% highlight html %}
 <marquee behavior="scroll" direction="down" scrollamount="5" style="position:absolute; left:130px; top:150px;height:548px;">
@@ -22,6 +17,14 @@ For whatever reason you have ended up on Google staring at the approximately 642
 {% endhighlight %}
 
 "Sorry to be 'that guy', but HTML isn't a programming language. It's a markup language." How right you are kind sir! This is where JavaScript comes into play, the third element of the web development trinity. JavaScript to program the behavior of web pages you create. With JS you can dynamically change the content of your HTML, change CSS style on the fly, calculate complex math equations in seconds, trigger events, the list is endless! 
+
+In review:
+
+### Unordered Lists
+
+* HTML defines the content of web pages
+* CSS to specify the layout of web pages
+* JavaScript programs the behavior of web pages and their elements
 
 It is for this reason that I recommend Javascript as the foundation to a emerging programmer's curriculum.
 
@@ -46,4 +49,4 @@ For now, consider this bit of advice under construction. Take this time to go th
 <h2>Final Thoughts</h2>
 Any programmer will tell you that learning to code was the most difficult thing they've ever had to do. They will also tell you that it has been the most fulfilling journey they've taken. I continue to refer to this as a "journey" because that's exactly what this is. If you've found yourself reading this post it is because you have the ingenuity and resourcefullness to tread off the beaten path and do your own research. Coding is a lifelong commitment. You will never stop learning. You will feel like a god, and you will feel like a loser. Often multiple times within the same day! 
 
-A lot has happened since I first saw that gray sweater almost 3 years ago. I attended and graduated from coding bootcamp, have taken on several freelance projects, and can proudly call myself a working professional. I sincerely hope that this blog post has helped you in taking the first step on your own journey. It's all because the internet.  
+A lot has happened since I completed my first free Code Academy lesson. I attended and graduated a coding bootcamp(more on that later), have taken on several freelance projects, have gotten a 9 to 5 job as a programmer, and can proudly call myself a working professional. I sincerely hope that this blog post has helped you in taking the first step on your own journey - wherever it may lead you.
