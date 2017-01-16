@@ -5,6 +5,7 @@ date: 2016-11-30
 excerpt: "A list of resources to refine your design chops and improve your website's aesthetic."
 tags: [coding, design, required reading]
 comments: true
+banner: http://www.iccssa.org/wp-content/uploads/2014/12/Banner-Design.png
 ---
 <h2>Web DESIGNer</h2>
 Beautiful design and computers go hand-in-hand. Apple has changed the world of computing by placing emphasis on gorgeous user experiences and beautiful hardware. Google has taken the community by storm through developing their own design language known as Material Design. It is no longer sufficient to have "good-enough" design sensibilities. In order for companies to stay competitive, their design language must be spectacular. As a front-end developer, it is your responsibilities to translate these design into pixel-perfect pages. Here are a few books to help get your own design chops to the next level.

@@ -128,6 +128,10 @@ img {
     -ms-interpolation-mode: bicubic;
     image-rendering: optimizeQuality;
 }
+.post-image {
+      min-width: 100%;
+      margin-bottom: .75em
+}
 .img-circle {
 	border-radius: 50%;
 	border: 3px solid $white;

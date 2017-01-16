@@ -2,9 +2,10 @@
 layout: post
 title: "So You Want to Learn to Code"
 date: 2016-11-25
-excerpt: "Everything you need to know to begin learning to code."
-tags: [coding, bootcamp]
+excerpt: "Everything you need to know to jump-start your learning. "
+tags: [coding, coding bootcamp]
 comments: true
+banner: http://www.iccssa.org/wp-content/uploads/2014/12/Banner-Design.png
 ---
 
 <h2>And Hearts;</h2>
