@@ -6,8 +6,8 @@ excerpt: ""
 tags: [B2B]
 comments: true
 project: true
+banner: http://i.imgur.com/O5gOVmf.jpg
 ---
-<img src="http://i.imgur.com/O5gOVmf.jpg">
 
 B2B company homepage, built 
 

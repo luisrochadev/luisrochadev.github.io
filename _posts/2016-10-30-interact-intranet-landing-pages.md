@@ -6,9 +6,11 @@ excerpt: ""
 tags: [B2B]
 comments: true
 project: true
+banner: http://i.imgur.com/jnrx5fq.jpg
 ---
-<img src="http://i.imgur.com/jnrx5fq.jpg">
-<img src="http://i.imgur.com/bVmEsfG.jpg">
+
+<!-- this is my variant of the landing page -->
+<!-- <img src="http://i.imgur.com/bVmEsfG.jpg"> -->
 
 B2B company homepage, built 
 

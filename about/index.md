@@ -18,7 +18,7 @@ comments: false
 </style>
 
 <div style="text-align:center">
-	<img alt="Luis Rocha headshot" class="avatar" src="/assets/img/avatar.jpg" style="width: 150px; border-radius: 50%">
+	<img alt="Luis Rocha headshot" class="avatar" src="/assets/img/avatar.jpg">
 
 	<p>Hello, my name is <strong>Luis Rocha</strong>. I live in <strong>San Francisco</strong> working as a front-end developer and love everything related to web development and design. I am obsessed with performance, responsive design, agile development, and creating clean and reusable code. I am also a fan of the Oxford comma. </p>
 

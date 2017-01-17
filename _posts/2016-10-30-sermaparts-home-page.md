@@ -6,6 +6,7 @@ excerpt: ""
 tags: [B2B]
 comments: true
 project: true
+banner: http://i.imgur.com/w86pZOX.jpg
 ---
 <img src="http://i.imgur.com/w86pZOX.jpg">
 
