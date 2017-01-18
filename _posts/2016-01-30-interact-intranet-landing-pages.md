@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Interact Intranet - Landing Pages"
-date: 2016-11-30
+date: 2016-05-30
 excerpt: "The flagship medium for generating new customers at a global B2B SaaS company."
 tags: [B2B]
 comments: false

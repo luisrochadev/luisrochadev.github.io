@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Luis Rocha Photography Portfolio"
-date: 2016-11-30
+date: 2016-06-30
 excerpt: "My personal photography portfolio, showcasing my best work in the most flattering way."
 tags: [B2B]
 comments: false

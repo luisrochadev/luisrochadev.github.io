@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Colorfontlogo"
-date: 2016-11-30
+date: 2016-02-30
 excerpt: "A guided design-primer for the more technically minded developer."
 tags: [B2B]
 comments: false
