@@ -18,7 +18,7 @@
 * 📱 <strong>Responsive: </strong> Made for a beautiful experience across all devices. 
 
 * 🎉 <strong>Live: </strong> Deployed with [GitHub Pages](https://pages.github.com/) fo free!
-* 
+
 ## Demo
 <div align="center">
   <img src="http://i.imgur.com/ap0f8vk.jpg"/>
