@@ -72,8 +72,7 @@ body {
 .container {
 	width: 36rem;
 	max-width: 550px;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding: 0 15px;
 	@include center-block();
 	background-color: $white;
 	color: $color_shark;
@@ -83,6 +82,7 @@ body {
 	@media #{$small} {
 		width: 100%;
 	    box-shadow: none;
+	    padding: 0;
 	}
 	@media #{$medium} {
 		width: 80%;
@@ -100,8 +100,8 @@ body {
 	}
 }
 .wrapper {
-	width: 75%;
-	max-width: 850px;
+	width: 94%;
+	max-width: 1200px;
 	margin: 4rem auto;
 	background: $white;
 	color: $color_tuatara;
@@ -110,7 +110,7 @@ body {
 	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
 	@include transition(.5s);
 	@media #{$small} {
-		width: 90%;
+		width: 100%;
 		padding: 2em 0;
 	    box-shadow: none;
 	    margin: 0 auto;

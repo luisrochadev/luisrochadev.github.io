@@ -1,7 +1,8 @@
 # Site
 title:              Luis Rocha
-bio:                'Frontend web developer, designer, and photographer in San Francisco'
+bio:                'Frontend developer, designer, and photographer specializing in conversion optimization'
 description:        "Luis Rocha - Frontend web developer, designer, and photographer in San Francisco"
+city:               "San Diego, CA"
 logo:               'assets/img/logo.png'
 locale:             en_US
 # url:                http://luisrochadev.github.io
@@ -29,9 +30,10 @@ email:              luisrochadev@gmail.com
 twitter:            luisrochadev
 github:             luisrochadev
 linkedin:           luisrochadev
+instagram:          luisrochaphoto
 
 # Gems
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
