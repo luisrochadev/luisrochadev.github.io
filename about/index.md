@@ -43,7 +43,7 @@ comments: false
 
 	<div>
 		<span>2012</span>
-		<span>Began photography for EDC, Coachella, Outside Lands, and Treasure Island Music Fetivals</span>
+		<span>Photography for Coachella, Outside Lands, and EDC Music Festivals</span>
 		<i class="em em-musical_score"></i>
 	</div>
 

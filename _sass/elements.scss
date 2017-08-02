@@ -76,11 +76,12 @@
     }
 }
 .title .btn {
-    margin: 10px;
+    margin: 20px;
     @include font-rem(16);
     font-weight:300;
     text-transform: uppercase;
     letter-spacing: 2px;
+    display: block;
 }
 .post-list {
     .btn {

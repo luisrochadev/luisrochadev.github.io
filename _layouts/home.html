@@ -23,24 +23,26 @@ layout: compress
                         	<p>{{ site.title }}</p>
 			            </a>
                     </h3>
-                    <h3 class="title">
+                    <div class="title">
                         <span>
                         	<p>{{ site.bio }}</p>
-                            <p>{{ site.city }}</p>
 			            </span>
-                    </h3>
+                    </div>
                     {% include social-links.html %}
-                  <h3 class="title">
+                  <div class="title">
                          <a class="btn zoombtn" href="{{ site.url }}/about">
-                         About
+                            About
                          </a>
                          <a class="btn zoombtn" href="{{ site.url }}/blog">
-                         Blog
+                            Blog
                          </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/projects">
-                         Projects
+                         <a class="btn zoombtn" target="_blank" href="http://luisrochaphoto.com">
+                            Photography
                          </a>
-                 </h3>
+                        <a class="btn zoombtn" href="{{ site.url }}/projects">
+                            Projects
+                        </a>
+                 </div>
             </div>
         </div>
     </header>
