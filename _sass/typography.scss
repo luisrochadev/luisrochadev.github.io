@@ -48,12 +48,6 @@ h3.title a {
 	ul {
 		list-style: none;
 		padding-left: 0;
-		float: left;
-		margin-bottom: 34px;
-		@media #{$notsmall} {
-			width: 33%;
-			height: 40em;
-		}
 	}
 	li {
 		padding: 10px 18px;

@@ -102,12 +102,11 @@ body {
 .wrapper {
 	width: 94%;
 	max-width: 1200px;
-	margin: 4rem auto;
+	margin: 0 auto;
 	background: $white;
 	color: $color_tuatara;
 	padding: 2em;
 	border-radius: 3px;
-	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
 	@include transition(.5s);
 	@media #{$small} {
 		width: 100%;
@@ -219,4 +218,12 @@ header .entry-meta {
         background-blend-mode: multiply;
         background-position: center center;
     }
+}
+
+.navigation-menu {
+	text-align: center;
+	a {
+		font-weight: 600;
+	}
+
 }
