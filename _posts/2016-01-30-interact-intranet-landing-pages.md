@@ -6,7 +6,7 @@ excerpt: "The flagship medium for generating new customers at a global B2B SaaS 
 tags: [B2B]
 comments: false
 project: true
-banner: http://i.imgur.com/jnrx5fq.jpg
+feature: http://i.imgur.com/jnrx5fq.jpg
 ---
 
 

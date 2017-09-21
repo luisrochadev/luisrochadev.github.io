@@ -5,7 +5,7 @@ date: 2016-11-25
 excerpt: "Everything you need to know to jump-start your learning. "
 tags: [coding, coding bootcamp]
 comments: true
-banner: http://i.imgur.com/0nbdqFX.jpg
+feature: http://i.imgur.com/0nbdqFX.jpg
 ---
 
 <h2>And Hearts;</h2>

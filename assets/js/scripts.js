@@ -15,6 +15,18 @@ $(function() {
   $(".content").fitVids();
 });
 
+
+$( "#mobile-toggle" ).click(function() {
+  $( "#mobile-wrapper" ).toggle( "fast" );
+  if($(this).children('i').hasClass( "fa-bars" )){
+           $(this).children('i').toggleClass('fa-bars');
+           $(this).children('i').toggleClass('fa-times');
+       } else {
+           $(this).children('i').toggleClass('fa-bars');
+           $(this).children('i').toggleClass('fa-times');
+       }
+});
+
 // All others
 $(document).ready(function() {
     // zoom in/zoom out animations

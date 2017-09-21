@@ -24,12 +24,12 @@ layout: compress
                     <ul>
                         <li class="wow fadeIn" data-wow-duration="1.5s" >
                             <a class="zoombtn" href="{{ site.url }}{{ post.url }}">
-                                <img class="post-image" src="{{ post.banner }}" style="">
+                                <img class="post-image" src="{{ post.feature }}" style="">
                             </a>
 
-                            <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                            <a class="zoombtn post-title" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                            <p>{{ post.date | date: '%b %d, %Y' }}</p>
                             <p>{{ post.excerpt }}</p>
-                            <a href="{{ site.url }}{{ post.url }}" class="read-more btn">Read More</a>
                         </li>
                     </ul>
                         {% endif %}

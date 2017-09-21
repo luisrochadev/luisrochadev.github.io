@@ -96,7 +96,7 @@
     .btn {
         @include font-rem(14);
          border-radius: 3px;
-         border: 1px solid;
+         border: 0px solid;
         border-color: rgba($color_mercury,0.5) rgba($color_bon_jour,0.5) $color_mischka;
     }
 }
@@ -137,10 +137,13 @@ img {
     image-rendering: optimizeQuality;
 }
 .post-image {
-      min-width: 100%;
-      margin-bottom: .75em;
-      object-fit: cover; 
-      height:185px; 
+    min-width: 100%;
+    margin-bottom: .75em;
+    object-fit: cover; 
+    height:250px;
+    @media #{$small} {
+      height: 185px;
+    }
 }
 
 .project-image{

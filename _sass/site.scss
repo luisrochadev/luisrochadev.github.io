@@ -109,7 +109,7 @@ body {
 	border-radius: 3px;
 	@include transition(.5s);
 	@media #{$small} {
-		width: 100%;
+		width: 90%;
 		padding: 2em 0;
 	    box-shadow: none;
 	    margin: 0 auto;
@@ -201,7 +201,6 @@ header .entry-meta {
         padding: 4em;
         margin-left: -4rem;
         margin-right: -4rem;
-        margin-top: -2rem;
         border-radius: 3px 3px 0 0;
         background-color: rgba($black, 0.6);
         background-blend-mode: multiply;
@@ -209,10 +208,9 @@ header .entry-meta {
     }
     @media #{$notsmall} {
         color: white;
-        padding: 10em;
+        padding: 5em;
         margin-left: -4rem;
         margin-right: -4rem;
-        margin-top: -2rem;
         border-radius: 3px 3px 0 0;
         background-color: rgba($black, 0.6);
         background-blend-mode: multiply;
@@ -222,8 +220,19 @@ header .entry-meta {
 
 .navigation-menu {
 	text-align: center;
+	#mobile-toggle{
+		@media #{$notsmall} {
+			display: none;
+		}
+	}
+	#mobile-wrapper{
+		display: none;
+	}
 	a {
 		font-weight: 600;
+		@media #{$small} {
+			width: 100%;
+			margin: 12px 0;
+		}
 	}
-
 }

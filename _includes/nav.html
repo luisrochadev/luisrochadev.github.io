@@ -2,16 +2,19 @@
     <img src="{{ site.logo }}" class="img-circle zoombtn animated rotateIn">
 </a>
 <div class="navigation-menu">
-    <a class="btn zoombtn" href="{{ site.url }}/about">
-        About
-    </a>
-    <a class="btn zoombtn" href="{{ site.url }}/blog">
-        Blog
-    </a>
-    <a class="btn zoombtn" target="_blank" href="http://luisrochaphoto.com">
-        Photography
-    </a>
-    <a class="btn zoombtn" href="{{ site.url }}/projects">
-        Projects
-    </a>
+    <a class="btn" id="mobile-toggle"><i class="fa fa-bars" aria-hidden="true"></i></a>
+    <div id="mobile-wrapper">
+        <a class="btn zoombtn" href="{{ site.url }}/about">
+            About
+        </a>
+        <a class="btn zoombtn" href="{{ site.url }}/blog">
+            Blog
+        </a>
+        <a class="btn zoombtn" target="_blank" href="http://luisrochaphoto.com">
+            Photography
+        </a>
+        <a class="btn zoombtn" href="{{ site.url }}/projects">
+            Projects
+        </a>
+    </div>
 </div>
