@@ -226,13 +226,15 @@ header .entry-meta {
 		}
 	}
 	#mobile-wrapper{
-		display: none;
+		@media #{$small} {
+			display: none;
+		}
 	}
 	a {
 		font-weight: 600;
 		@media #{$small} {
-			width: 100%;
 			margin: 12px 0;
+			width: 100%;			
 		}
 	}
 }
