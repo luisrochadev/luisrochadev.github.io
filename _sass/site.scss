@@ -218,8 +218,33 @@ header .entry-meta {
     }
 }
 
+.hero-banner {
+	height: 400px;
+	line-height: 400px;
+	background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(/assets/img/laptop-lenses-hero.jpg);
+	background-size: cover;
+	background-position: center 68%;
+	text-align: center;
+	#banner-text{
+		display: inline-block;
+		vertical-align: middle;
+		line-height: normal;
+		color: white;
+		padding: .5em;
+		h1{
+			font-weight: 500;
+		}
+		h2{
+			font-weight: 300;
+		}
+	}
+}
 .navigation-menu {
 	text-align: center;
+	text-transform: uppercase;
 	#mobile-toggle{
 		@media #{$notsmall} {
 			display: none;
@@ -235,6 +260,17 @@ header .entry-meta {
 		@media #{$small} {
 			margin: 12px 0;
 			width: 100%;			
+		}
+	}
+}
+
+#clients {
+	.client {
+		float: left;
+		width: 33%;
+		@media #{$small} {
+		width: 100%;
+		float: none;
 		}
 	}
 }
