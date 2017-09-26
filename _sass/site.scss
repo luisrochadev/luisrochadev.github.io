@@ -105,12 +105,12 @@ body {
 	margin: 0 auto;
 	background: $white;
 	color: $color_tuatara;
-	padding: 2em;
+	padding: 1em 2em;
 	border-radius: 3px;
 	@include transition(.5s);
 	@media #{$small} {
 		width: 90%;
-		padding: 2em 0;
+		padding: 1em 0;
 	    box-shadow: none;
 	    margin: 0 auto;
 	}
@@ -272,5 +272,38 @@ header .entry-meta {
 		width: 100%;
 		float: none;
 		}
+		img {
+			height: 150px;
+		}
+		p{
+			margin: .5em;
+		}
 	}
+}
+
+footer {
+	background-color: #1A1D20;
+    padding: 4em 0;
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    #site-info {
+    	color: #656D78;
+    	text-align: center;
+    	span { 
+    		margin-top: 15px;
+    		font-size: .75em;
+    		display: block;
+    	}
+    }
+    .social-links {
+    	
+	    .social-icon {
+	    	margin-right: 15px;
+	    	i {
+	    		font-size: 2em;
+	    	}
+	    }
+    }
 }

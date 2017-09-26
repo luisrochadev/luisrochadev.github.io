@@ -11,31 +11,43 @@ layout: compress
 </head>
 <body>
     <!-- Header -->
+  <div class="wrapper animated fadeIn">
     <header class="header" role="banner">
-        <div class="wrapper animated fadeIn">
-          {% include nav.html %}
-          <div class="hero-banner">
-            <span id="banner-text">
-              <h1>Luis Rocha</h1>
-              <h2>Growth-Centered Developer / Designer / Photographer in San Diego, CA</h2>
-            </span>
-          </div>
-          <div class="row" id="clients">
-            <h3>Clients</h3>
-            <div class="client">
-              <img src="http://via.placeholder.com/150x150" class="animated fadeInUp" alt="">
-              <p>This is a client </p>
-            </div><div class="client">
-              <img src="http://via.placeholder.com/150x150" class="animated fadeInUp" alt="">
-              <p>This is a client </p>
-            </div>
-            <div class="client">
-              <img src="http://via.placeholder.com/150x150" class="animated fadeInUp" alt="">
-              <p>This is a client </p>
-            </div>
-          </div>
-        </div>
+      {% include nav.html %}
+      <div class="hero-banner">
+        <span id="banner-text">
+          <h1>Luis Rocha</h1>
+          <h2>Growth-Centered Developer / Designer / Photographer in San Diego, CA</h2>
+        </span>
+      </div>
     </header>
+    <div class="row" id="clients">
+      <h3>Past Clients</h3>
+      <div class="client">
+        <img src="/assets/img/clients/san-franpsycho-logo.png" class="animated fadeInUp" alt="">
+        <h4>San Franpsycho</h4>
+        <p>Product and Lookbook Photography</p>
+        <p>Brand Development</p>
+        <p>Social Media Management</p>
+      </div>
+      <div class="client">
+        <img src="/assets/img/clients/interact-intranet-logo.png" class="animated fadeInUp" alt="">
+        <h4>Interact Intranet </h4>
+        <p>Web Development</p>
+        <p>Lead Generation</p>
+        <p>Conversion Optimization</p>
+      </div>
+      <div class="client">
+        <img src="/assets/img/clients/subculture-logo.png" class="animated fadeInUp" alt="">
+        <h4>Subculture Music</h4>
+        <p>Graphic Design</p>
+        <p>Brand Development</p>
+        <p>Event Photography</p>
+      </div>
+    </div>
+</div>
+{% include footer.html %}
+      
     {% include scripts.html %}
 </body>
 </html>

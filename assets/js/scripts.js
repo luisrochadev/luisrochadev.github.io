@@ -27,6 +27,11 @@ $( "#mobile-toggle" ).click(function() {
        }
 });
 
+$(window).scroll(function() {
+  var scroll = $(window).scrollTop();
+  $("#hero-banner").css("transform","translateY(" +  (scroll/2)  + "px)");    
+});
+
 // All others
 $(document).ready(function() {
     // zoom in/zoom out animations
