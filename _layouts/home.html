@@ -11,8 +11,8 @@ layout: compress
 </head>
 <body>
     <!-- Header -->
-  <div class="wrapper animated fadeIn">
-    <header class="header" role="banner">
+  <div class="wrapper-home animated fadeIn">
+    <header class="header header-home" role="banner">
       {% include nav.html %}
       <div class="hero-banner">
         <span id="banner-text">
@@ -21,6 +21,27 @@ layout: compress
         </span>
       </div>
     </header>
+    <div class="row" id="services">
+      <div class="service">
+        <img src="http://via.placeholder.com/350x350">
+        <div class="overlay">
+          <div class="text">test hover</div>
+        </div>
+      </div>
+      <div class="service">
+        <img src="http://via.placeholder.com/350x350">
+        <div class="overlay">
+          <div class="text">test hover</div>
+        </div>
+      </div>
+      <div class="service">
+        <img src="http://via.placeholder.com/350x350">
+        <div class="overlay">
+          <div class="text">test hover</div>
+        </div>
+      </div>
+      <div style="clear:both"></div>
+    </div>
     <div class="row" id="clients">
       <h3>Past Clients</h3>
       <div class="client">
@@ -45,12 +66,13 @@ layout: compress
       </div>
       <div class="client">
         <img src="/assets/img/clients/blue-light-logo.png" class="animated fadeInUp" alt="">
-        <h4>BLue Light Bar</h4>
+        <h4>Blue Light Bar</h4>
       </div>
       <div class="client">
         <img src="/assets/img/clients/jl-rocha-logo.png" class="animated fadeInUp" alt="">
         <h4>JL Rocha Shoes</h4>
       </div>
+      <div style="clear:both"></div>
     </div>
 </div>
     {% include scripts.html %}

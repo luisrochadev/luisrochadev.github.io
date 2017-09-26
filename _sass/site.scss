@@ -47,6 +47,10 @@ body {
 	    display: block !important;
 	}
 }
+
+.header-home {
+	padding-top: 1em;
+}
 .flex {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -106,6 +110,19 @@ body {
 	background: $white;
 	color: $color_tuatara;
 	padding: 1em 2em;
+	border-radius: 3px;
+	@include transition(.5s);
+	@media #{$small} {
+		width: 90%;
+		padding: 1em 0;
+	    box-shadow: none;
+	    margin: 0 auto;
+	}
+}
+
+.wrapper-home {
+	background: $white;
+	color: $color_tuatara;
 	border-radius: 3px;
 	@include transition(.5s);
 	@media #{$small} {
@@ -263,11 +280,57 @@ header .entry-meta {
 		}
 	}
 }
+#services{
+	margin: 0 auto;
+	.service {
+		width: 33.3333%;
+		float: left; 
+	  	color:white;
+	  	position: relative;
+		img {
+			cursor: pointer;  
+			display: block;
+			width:350px;
+  			height:350px;
+		} 
+	}
+	.overlay {
+	  position: absolute;
+	  top: 0;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  height: 100%;
+	  width: 100%;
+	  opacity: 0;
+	  transition: .5s ease;
+	  background-color: black;
+	}
 
+	.service:hover .overlay {
+	  opacity: 0.80;
+	}
+
+	.text {
+	  color: white;
+	  font-size: 20px;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	}
+}
 #clients {
+	margin: 0 auto;
+    max-width: 1200px;
 	.client {
 		float: left;
 		width: 14%;
+		position: relative;
+	    min-height: 1px;
+	    padding-right: 15px;
+	    padding-left: 15px;
 		@media #{$small} {
 			width: 100%;
 			float: none;
@@ -277,6 +340,9 @@ header .entry-meta {
 			@media #{$small} {
 				height: 150px;
 			}
+		}
+		h4{
+			font-weight: 300;
 		}
 		p{
 			margin: .5em;
