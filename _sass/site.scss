@@ -3,7 +3,7 @@
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: 100%;
+	min-height: 100%;
 	font-size: 100%;
 }
 
@@ -118,7 +118,7 @@ body {
 #disqus_thread {
 	width: 75%;
 	max-width: 850px;
-	margin: -3rem auto 4rem;
+	margin: -3rem auto 0;
 	background: $white;
 	color: $color_tuatara;
 	padding: 2em;
@@ -267,13 +267,16 @@ header .entry-meta {
 #clients {
 	.client {
 		float: left;
-		width: 33%;
+		width: 14%;
 		@media #{$small} {
-		width: 100%;
-		float: none;
+			width: 100%;
+			float: none;
 		}
 		img {
-			height: 150px;
+			height: 100px;
+			@media #{$small} {
+				height: 150px;
+			}
 		}
 		p{
 			margin: .5em;
