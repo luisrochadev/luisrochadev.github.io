@@ -30,9 +30,6 @@
       background-color: $success;
       color: $white;
       border-color: $success;
-      &:visited {
-        color: $white;
-      }
       &:hover {
         background-color: $white;
         color: $success;
@@ -42,9 +39,6 @@
       background-color: $warning;
       color: $white;
       border-color: $warning;
-      &:visited {
-        color: $white;
-      }
       &:hover {
         background-color: $white;
         color: $warning;
@@ -54,9 +48,6 @@
       background-color: $danger;
       color: $white;
       border-color: $danger;
-      &:visited {
-        color: $white;
-      }
       &:hover {
         background-color: $white;
         color: $danger;
@@ -66,9 +57,6 @@
       background-color: $info;
       color: $white;
       border-color: $info;
-      &:visited {
-        color: $white;
-      }
       &:hover {
         background-color: $white;
         color: $info;
