@@ -284,12 +284,13 @@ header .entry-meta {
 	margin: 1em auto 0;
 	max-width: 1200px;
 	.service {
-		width: 33.3333%;
-		float: left; 
+		float: none; 
 	  	color:white;
 	  	position: relative;
-	  	@media #{$small} {
-			width: 100%;
+	  	width: 100%;
+	  	@media #{$large} {
+			width: 33.3333%;
+			float: left;
 	  	}
 		img {
 			cursor: pointer;  
@@ -356,11 +357,15 @@ header .entry-meta {
     max-width: 1200px;
 	.client {
 		float: left;
-		width: 14%;
+		width: 16.6666666%;
 		position: relative;
 	    min-height: 1px;
 	    padding-right: 15px;
 	    padding-left: 15px;
+		@media #{$medium} {
+			width: 33.33333%;
+			float: left;
+		}
 		@media #{$small} {
 			width: 100%;
 			float: none;
