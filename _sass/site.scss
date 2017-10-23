@@ -222,6 +222,7 @@ header .entry-meta {
         background-color: rgba($black, 0.6);
         background-blend-mode: multiply;
         background-position: center center;
+        background-size: cover;
     }
     @media #{$notsmall} {
         color: white;
@@ -232,6 +233,7 @@ header .entry-meta {
         background-color: rgba($black, 0.6);
         background-blend-mode: multiply;
         background-position: center center;
+        background-size: cover;
     }
 }
 
@@ -288,6 +290,10 @@ header .entry-meta {
 	  	color:white;
 	  	position: relative;
 	  	width: 100%;
+	  	@media #{$notsmall} {
+			width: 33.3333%;
+			float: left;
+	  	}
 	  	@media #{$large} {
 			width: 33.3333%;
 			float: left;
@@ -330,6 +336,9 @@ header .entry-meta {
 	  transition: .5s ease;
 	  background-color: black;
 	  @media #{$small} {
+		display: none;
+	  }
+	  @media #{$medium} {
 		display: none;
 	  }
 	}
@@ -392,8 +401,15 @@ footer {
     text-align: center;
     width: 100%;
     float: left;
+    h3 { 
+    	margin-bottom: 0;
+    }
+    p {
+		margin-top: 0;
+		font-weight: 600;
+    }
     #site-info {
-    	color: #656D78;
+    	color: $white;    
     	text-align: center;
     	span { 
     		margin-top: 15px;
@@ -402,10 +418,12 @@ footer {
     	}
     }
     .social-links {
-    	
+    	margin-top: 2em;
 	    .social-icon {
+	    	color: $white;    
 	    	margin-right: 15px;
 	    	i {
+
 	    		font-size: 2em;
 	    	}
 	    }
