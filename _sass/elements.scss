@@ -159,6 +159,12 @@ figure {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
+  float: left;
+  width: 33%;
+  @media #{$small} {
+    float: none;
+    width: 100%;
+  }
   @include clearfix();
   img {
     margin-bottom: 10px;

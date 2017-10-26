@@ -1,0 +1,41 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<head>
+    {% include head.html %}
+</head>
+<body>
+    <!-- Header -->{{ site.baseurl }}{{ image.path }}
+    <header class="header" role="banner">
+        <div class="wrapper animated fadeIn">
+            <div class="content">
+                {% include nav.html %}
+                <div class="post-title {% if page.feature %} feature {% endif %}">
+               
+                   <h1 class="fadeInUp animated">{{ page.title }}</h1>
+                   
+                </div>
+            </div>
+        </div>
+    </header>
+    {% for image in site.static_files %}
+            	{% if image.path contains page.gallerytype %}
+            	<figure>
+                	<a href="{{ site.baseurl }}{{ image.path }}"><img src="{{ site.baseurl }}{{ image.path }}" class="wow fadeIn" alt="image" /></a>
+            	</figure>
+        	    {% endif %}
+        	{% endfor %}
+
+
+    {% include scripts.html %}
+</body>
+</html>
+
+
+
+
