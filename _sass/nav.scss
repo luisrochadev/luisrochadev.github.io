@@ -386,7 +386,7 @@ All this is done for any sub-level being entered.
     display: block;
 }
 
-.dropdown-content a:hover {
+.dropdown-content a:hover, a:focus {
 	background-color: #f1f1f1;
 	color: #979797;
 }
@@ -395,6 +395,6 @@ All this is done for any sub-level being entered.
 	font-weight: 600;
 }
 
-#photo-drop:hover .dropdown-content {
+#photo-drop:hover .dropdown-content, #photo-drop:focus .dropdown-content {
     display: block;
 }
