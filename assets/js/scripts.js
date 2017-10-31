@@ -7,6 +7,24 @@ $(function() {
 
  new WOW().init();
 
+ // total revenue count animation
+ $.fn.digits = function(){ 
+    return this.each(function(){ 
+        $(this).text( $(this).text().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") ); 
+    })
+}
+
+$({countNum: 99}).animate({countNum: 27338}, {
+  duration: 800,
+  easing:'linear',
+  step: function() {
+    $("#revenue-count").html("" + Math.floor(this.countNum));
+  },
+  complete: function() {
+    $('#revenue-count').digits();
+  }
+});
+
 // Need this to show animation when go back in browser
 window.onunload = function() {};
 

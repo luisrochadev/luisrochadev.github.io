@@ -386,7 +386,7 @@ All this is done for any sub-level being entered.
     display: block;
 }
 
-.dropdown-content a:hover, a:focus {
+.dropdown-content a:hover, a:active {
 	background-color: #f1f1f1;
 	color: #979797;
 }
