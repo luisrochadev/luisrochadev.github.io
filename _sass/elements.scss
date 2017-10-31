@@ -155,20 +155,15 @@ img {
     margin-left: 1em;
     margin-top: 0;
 }
+
 figure {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
-  float: left;
-  width: 33%;
-  @media #{$small} {
-    float: none;
-    width: 100%;
-  }
+ 
   @include clearfix();
   img {
     margin-bottom: 10px;
-    @include rounded(4px);
   }
   &.half {
     @media only screen and (min-width: 62.5em) {
@@ -199,6 +194,47 @@ figure {
 }
 svg:not(:root) {
   overflow: hidden; 
+}
+
+// photo grid gallery layout
+
+#photo-grid {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 2;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    2;
+  -moz-column-gap:      0px;
+  column-count:         2;
+  column-gap:           10px;  
+
+  @media (min-width: 1200px) {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  figure {
+    padding: 0 ;
+
+    img {
+      /* Just in case there are inline attributes */
+      width: 100%;
+      height: auto;
+      border-radius: 0px ;
+      margin-bottom: 10px ;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+@media #{$small} {
+  #photo-grid {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
 }
 
 // keyboard tag
