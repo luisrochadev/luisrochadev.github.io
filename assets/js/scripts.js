@@ -27,7 +27,7 @@ $({countNum: 10000}).animate({countNum: 27338}, {
 
 // 
 $('#photo-drop').on('click', function () {
-    $('#dropdown-content').toggle('slide');
+    $('.dropdown-content').toggle();
 });
 
 // Need this to show animation when go back in browser
