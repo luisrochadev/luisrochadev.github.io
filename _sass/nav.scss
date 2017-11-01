@@ -384,17 +384,17 @@ All this is done for any sub-level being entered.
     margin: 10px auto;
     text-decoration: none;
     display: block;
-}
-
-.dropdown-content a:hover, a:active {
-	background-color: #f1f1f1;
-	color: #979797;
+    &:hover {
+		background-color: #f1f1f1;
+		color: #979797;
+	}
 }
 
 #photo-drop {
 	font-weight: 600;
-}
-
-#photo-drop:hover .dropdown-content, #photo-drop:focus .dropdown-content {
-    display: block;
+	&:hover {
+		.dropdown-content{
+			display: block;
+		}
+	}
 }

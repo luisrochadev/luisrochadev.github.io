@@ -14,11 +14,11 @@ $(function() {
     })
 }
 
-$({countNum: 99}).animate({countNum: 27338}, {
+$({countNum: 10000}).animate({countNum: 27338}, {
   duration: 800,
   easing:'linear',
   step: function() {
-    $("#revenue-count").html("" + Math.floor(this.countNum));
+    $("#revenue-count").html(Math.floor(this.countNum));
   },
   complete: function() {
     $('#revenue-count').digits();
