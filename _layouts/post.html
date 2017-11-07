@@ -33,6 +33,7 @@ layout: compress
 
                 {% if page.project %}
                 {% else %}
+                {% include mailchimp.html %}
                 <div class="entry-meta">
                 {% include meta.html %}
                 </div>
@@ -46,5 +47,6 @@ layout: compress
     <!-- MathJax -->
     <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     {% endif %}
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us16.list-manage.com","uuid":"700739be7376c2ca6d3d6ab1c","lid":"73bcefa6c7"}) })</script>
 </body>
 </html>

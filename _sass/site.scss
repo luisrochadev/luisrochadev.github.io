@@ -148,6 +148,26 @@ body {
 	    box-shadow: none;
 	}
 }
+
+// mailchimp signup
+#mc_embed_signup{
+	background-color: #1A1D20;
+	color: #fff;
+	#mc_embed_signup_scroll h2 {
+		margin: 0;
+	}
+	#mc-embedded-subscribe{
+		height: auto;
+		background-color: #ec3f35;
+		padding: .5em 2em;
+    	text-align: right;
+		&:hover{
+			background-color: #c53732;
+		}
+	}
+}
+
+
 // entry meta
 .entry-meta {
 	@include font-rem(12);
@@ -316,6 +336,9 @@ header .entry-meta {
 		h3 {
 			font-weight: 300;
 			text-align: left;
+			@media #{$small} {
+				text-align: center;
+			}
 		}
 		button{
 		    height: auto;

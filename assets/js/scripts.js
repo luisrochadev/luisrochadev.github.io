@@ -26,7 +26,7 @@ $({countNum: 10000}).animate({countNum: 27338}, {
 });
 
 // 
-$('#photo-drop').on('click', function () {
+$('#photo-drop').on('click hover', function () {
     $('.dropdown-content').toggle();
 });
 
