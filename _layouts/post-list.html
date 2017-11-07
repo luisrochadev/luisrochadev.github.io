@@ -14,10 +14,10 @@ layout: compress
     <header class="header" role="banner">
         <div class="wrapper animated fadeIn">
             {% include nav.html %}
-            <div class="content">
-                <div class="post-title">
-                    <h1 class="fadeInUp animated">{{ page.title }}</h1>
-                </div>
+            <div class="post-title">
+                <h1 class="fadeInUp animated">{{ page.title }}</h1>
+            </div>
+            <div class="content blog-content">
                 <div class="post-list">
                     {% for post in site.posts %} 
                         {% if post.project == null %}
@@ -35,6 +35,12 @@ layout: compress
                         {% endif %}
                     {% endfor %}
                 </div>
+            </div>
+            <div class="blog-sidebar">
+                {% include mailchimp.html %}
+                <hr>
+                <h3>Follow me!</h3>
+                {% include social-links.html %}
             </div>
         </div>
     </header>
