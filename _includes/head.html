@@ -56,6 +56,10 @@ MADE BY LUIS ROCHA @ LUISROCHADEV.COM  -->
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:image" content="{{ site.url }}/{{ site.logo }}">
+  <!-- facebook feature image -->
+    {% if page.feature %}
+      <meta property="og:image" content="{{ feature }}">
+    {% endif %}
     {% if site.google.verify %}
     <!-- Webmaster Tools verfication -->
     <meta name="google-site-verification" content="{{ site.google.verify }}">{% endif %}
