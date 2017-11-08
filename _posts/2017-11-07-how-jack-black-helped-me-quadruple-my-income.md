@@ -2,8 +2,8 @@
 layout: post
 title: "How Jack Black Helped Me Quadruple My Income and Land My Dream Job"
 date: 2017-11-07
-excerpt: "stuff"
-tags: [coding, coding bootcamp]
+excerpt: "Are you a young adult stuck at a dead end job? Want to transition into your career? Here's one simple way you can make the jump."
+tags: [motivation, how to get your dream job]
 comments: true
 feature: http://cdn1-www.comingsoon.net/assets/uploads/2015/05/Nacho.jpg
 ---

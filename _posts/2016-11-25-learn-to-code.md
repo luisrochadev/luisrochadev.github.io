@@ -6,6 +6,8 @@ excerpt: "Everything you need to know to jump-start your learning. "
 tags: [coding, coding bootcamp]
 comments: true
 feature: http://i.imgur.com/0nbdqFX.jpg
+published: false
+
 ---
 
 <h2>And Hearts;</h2>

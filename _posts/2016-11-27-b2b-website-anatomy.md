@@ -6,6 +6,7 @@ excerpt: "A detailed examination into the industry standard components of Busine
 tags: [Marketing, Web Design, B2B]
 comments: true
 feature: http://i.imgur.com/sq9OjUP.jpg
+published: false
 ---
 
 B2B (business-to-business) marketing has many core differences when compared to individual consumer marketing. Business markets are smaller (316,000,000 potential individual customers vs 7,705,000 operating businesses in the US), demand is often derived from individual consumer demand, and the transactions are usually more complex. These factors as well as others affect the way B2B companies seek to attract new customers. It should be no surprise then that these companies have their own little nuances and best practices when it comes to their websites. The following is a list of industry standard components you should consider when building a B2B site. I've created this list based on my own research as well as experience working for B2B companies.

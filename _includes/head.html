@@ -39,7 +39,7 @@ MADE BY LUIS ROCHA @ LUISROCHADEV.COM  -->
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
     <!-- Twitter Cards -->
-    {% if page.feature %}{% capture feature %}{{ page.feature }}{% endcapture %}{% capture feature %}{{ feature }}{% endcapture %}
+    {% if page.feature %}{% capture feature %}{{ page.feature }}{% endcapture %}{% capture feature %}5{{ feature }}{% endcapture %}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="{{ feature }}">
     {% else %}<meta name="twitter:card" content="summary">
@@ -58,7 +58,7 @@ MADE BY LUIS ROCHA @ LUISROCHADEV.COM  -->
     
   <!-- facebook feature image -->
     {% if page.feature %}
-    <meta property="og:image" content="{{ feature }}">
+    <meta property="og:image" content="{{ page.feature }}">
     {% else %}
     <meta property="og:image" content="{{ site.url }}/{{ site.logo }}">
     {% endif %}
