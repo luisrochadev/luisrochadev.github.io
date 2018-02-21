@@ -15,7 +15,6 @@ feature: http://cdn.playbuzz.com/cdn/486bb7bc-aa1a-4054-8b45-5c7c9b20a2bf/e08723
 Having an impressive and easy to read resume is one of the simplest ways you can improve your odds at scoring that sweet office job. It's also one of the hardest. A resume is meant to be an anthology of your collective skills <strong>relevant to the job you're applying to.</strong> Recruiters, however, have a lot to sift through and will only spend an  <a href="https://cdn.theladders.net/static/images/basicSite/pdfs/TheLadders-EyeTracking-StudyC2.pdf" target="_blank">average of six seconds looking at your resume</a> before tossing it in the trash if it isn't up to snuff. With this in mind, it's crazy important that you make a good first impression in those precious six seconds. Here a few easy ways to do just that.
 
 
-<img src="https://media.giphy.com/media/3oxOCfRrEc6GSVibkY/giphy.gif">
 <h2> Keep it simple, stupid.</h2>
 Say it with me now: "keep it simple, stupid." Oftentimes, applicants try to reinvent the wheel and cook up what they consider a revolutionary new format for the resume. They throw in six different fonts, two infographics, and 3 columns with poor data architecture. A recruiter takes one look at this and, realizing he needs to read a manual on how to even decipher this thing, tosses it in the trash. 
 
