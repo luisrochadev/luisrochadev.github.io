@@ -514,9 +514,19 @@ footer {
 }
 
 .blog-content{
+	@media #{$small} {
+		h2 {
+			text-align: left;
+		}
+	}
+
 	@media #{$notsmall} {
 		float: left;
 		width: 66%;
+	}
+
+	a:link {
+		color: #00bbe1
 	}
 }
 
