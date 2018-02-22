@@ -1,18 +1,15 @@
 ---
 layout: post
-title: "How to Start Coding in 2018"
-date: 2018-02-20
-excerpt: "Learn how to create a kick-ass resume that will guarantee you a callback. Avoid common mistakes made by inexperienced job-seekers who get their resume thrown in the trash!"
+title: "Learn to Code in 2018 Without Breaking The Bank"
+date: 2018-02-22
+excerpt: "A simple and cost effective guide for the aspiring web developer. I look back on my experiences as a coding newbie and draw on my ywears of experience in the industry to get you that best information that will get you started fast!"
 tags: [how to, learn to code]
 comments: true
-feature: http://www.magicindie.com/magicblog/wp-content/uploads/2013/12/cat_programmer.jpg
-published: false
+feature: https://1ycbx02rgnsa1i87hd1i7v1r-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/cat-lady-e1421905749447.jpg
 ---
 
-<img src="https://media.giphy.com/media/26xmHWkUFYRUn88ms/giphy.gif">
-
 <h2>Get Started - NOW.</h2>
-In a typical introduction paragraph, similair articles begin by listing reasons that you should learn to code. In 2018, most of you don't need convincing! The skill is in high demand, the pay is above the national average, and opportunities are plentiful. At least 3 times a week, friends and strangers online ask me about how I got my start as a web developer. In this week's blog post, I'll break down step-by-step just how I got my start along with some new and improved tips I can now offer through the benefit of hindight. 
+In a typical introduction paragraph, similar articles begin by listing reasons that you should learn to code. In 2018, most of you don't need convincing! The skill is in high demand, the pay is above the national average, and opportunities are plentiful. At least 3 times a week, friends and strangers online ask me about how I got my start as a web developer. In this week's blog post, I'll break down step-by-step just how I got my start along with some new and improved tips I can now offer through the benefit of hindsight. 
 
 These tips are <strong>straight-forward and easy to follow</strong> and are largely <strong>free of cost</strong>. The intention of this guide is to provide a free and simple outline so that anyone can take the first steps without any excuses. This guide is for everyone, from high school students to senior citizens. I am incredibly passionate about the tech field and want anyone who is interested in learning more to have open access to helpful information so that you can take advantage of the opportunities this field has to offer. With that being said, let's get started!
 
@@ -28,11 +25,8 @@ Quick definitions on the purpose of each coding language:
 HTML presents the words you are reading right now, CSS is responsible for displaying my chosen font and colors, JavaScript made that e-mail sign up window that you saw when you entered my web site pop up to the very front of the page. 
 
 
-As you can probably guess, JavaScript is more sophisticated than HTML and CSS. With JavaScript you can dynamically change the content of your HTML, change CSS style on the fly, calculate complex math equations in seconds, the list is endless! It's typically best practice to always start with your hardest task first. It is for this reason that I recommend you kick start your learning with JavaScript. Don't worry! It's not as scary as it sounds. Fundamental JavaScript is rather straight foward and easy to understand. We'll get you on the right track in the next section. 
+As you can probably guess, JavaScript is more sophisticated than HTML and CSS. With JavaScript you can dynamically change the content of your HTML, change CSS style on the fly, calculate complex math equations in seconds, the list is endless! It's typically best practice to always start with your hardest task first. It is for this reason that I recommend you kick start your learning with JavaScript. Don't worry! It's not as scary as it sounds. Fundamental JavaScript is rather straight forward and easy to understand. We'll get you on the right track in the next section. 
 
-
-
-<img src="https://media.giphy.com/media/3oxOCfRrEc6GSVibkY/giphy.gif">
 <h2>Baby Steps and Confidence Building</h2>
 When first starting out, baby steps are vital. These small, easy to follow lessons serve to build up both your knowledge on coding basics as well as your confidence with the subject matter. This creates a snowball effect where the more confident you feel, the more you want to learn, which makes you even MORE confident so you spend MORE time learning etc etc etc. 
 
@@ -49,9 +43,9 @@ Congratulations! You learned the very basics of JavaScript. You coded along as a
 Your next step is to <a href="https://www.codecademy.com/learn/learn-html" target="_blank"> learn the basics HTML on CodeAcademy </a>.
 THEN, you will do the same <a href="https://www.codecademy.com/learn/learn-css">and learn CSS.</a>
 
-I'm sure you found the pacing for CodeAcademy's JavaScript course comfortable. Their HTML and CSS program folllows the same relaxed rhythm for concepts that are a lot simpler. HTML and CSS are a lot of fun to learn and use and follow simple patterns that you'll master in no time! Bookmark the above link so that you can start then once you finish the JavaScript Course.
+I'm sure you found the pacing for CodeAcademy's JavaScript course comfortable. Their HTML and CSS program follows the same relaxed rhythm for concepts that are a lot simpler. HTML and CSS are a lot of fun to learn and use and follow simple patterns that you'll master in no time! Bookmark the above link so that you can start then once you finish the JavaScript Course.
 
-(I should probaby take this time to mention that I am no sponsored by CodeAcademy in any way. The website was my entry into web development and I'm very grateful and passionate about their approach towards teaching beginners the basics.)
+(I should probably take this time to mention that I am no sponsored by CodeAcademy in any way. The website was my entry into web development and I'm very grateful and passionate about their approach towards teaching beginners the basics.)
 
 
 <h2>No More Training Wheels</h2>
@@ -59,18 +53,26 @@ Your next step is to read the universally recommended <a href="https://eloquentj
 
 Reading this book will test you more than CodeAcademy did as, let's face it, reading a text book is not as fun as learning alongside an interactive website. This is a valuable time to train your focus and motivation towards the subject matter. Don't allow yourself to get distracted or give up. Remember why you wanted to get started in the first place and motivate yourself constantly. 
 
-<h2>Investing in Yourself: Part 1</h2>
-Talk about programs like Treehouse. 
+<h2>Investing in Yourself</h2>
+You've kept at your learning and have gotten a solid understanding of the core lessons Eloquen JavaScript has to offer. That's awesome! Up until now, you have been learning about these concepts while not doing much putting them into action. For your next step, I recommend you <a href="https://teamtreehouse.com/tracks/front-end-web-development" target="blank">Team Treehouse's Front End Web Development online course</a>.  Team Treehouse is highly reputable and has been a known name in the coding instruction industry for years. This course will review the basics as well as teach you how to apply your sharpened skills and actually BUILD things. These courses follow a subscription model, costing $25/ a month, but you also have the option of a 7 day free trial. Check it out and see if their teaching style works for you.  I personally continue to find value in their lessons to this day. 
 
-<h2>Investing in Yourself: Part 1</h2>
-Talk about Bootcamps.
+(note: Treehouse doesn't pay me either! Again, I have just really enjoyed taking their online courses in the past.)
 
+<h2>What About Coding Bootcamps?</h2> 
+I have touched on the subject of <a href="http://luisrochadev.com/should-i-join-a-coding-bootcamp-in-2018/" target="_blank"> whether or not you should attend a coding bootcamp</a> in a previous blog post. I attended a coding bootcamp in 2015 and had a mostly positive experience. However, 3 years later the industry has expanded rather quickly, founders have sold or left their bootcamps, and many notable instructors that help establish a name for their bootcamps have moved on to new bootcamps and opportunities. You can not rely on the brand-name of a bootcamp anymore. I have and will always say that instructor lineage is the most important thing to look out for in a bootcamp.
+
+I hope to continue to elaborate on the subject more in the future, as it is near and dear to me. For now, I highly recommend you check out the <a href="https://cirr.org/data" target="_blank">Council on Integrity in Results Reporting's Data on Bootcamp Outcomes</a>. This is a comprehensive report on a given bootcamp's results verified by an independent audit. Participating bootcamp's must offer insights on how many students graduated on time,
+how many accepted a full-time job in the field within six months, their salaries, etc etc. It is the definitive way to vet a bootcamp and their quality of instruction. Don't see your bootcamp on their list? While not always a bad sign, this means that the particular bootcamp chose not to be a part of this audit and keep their outcomes classified information. It is up to you to decide whether or not this is a red flag.  
+
+
+<h2>Further Reading</h2>
+<a href="http://a.co/d2Qh3y1" target="_blank">HTML and CSS by John Duckett</a>
+<a href="http://a.co/0WiSwad" target="_blank">JavasScript and JQuery by John Duckett</a>
+<a href="http://a.co/7Cfcree" target="_blank">JavaScript: The  Good Parts by Douglas Crockford</a>
 
 
 <h2>Conclusion</h2>
-It is important to bear in mind that the first phase of learning is about learning how to learn. Over the previous steps you have been exposing yourself to new skills and a new way of thinking and it's awesome that you've made it this far! You've picked up on foundational coding skills that I along with more experiened programmers use EVERY DAY on the job. 
-CONTINUE THIS SECTION LOUIE.
+Learning to code can be a frustrating and daunting experience - but it's also incredibly rewarding and it literally pays off! Over the previous steps you have been exposing yourself to new skills and a new way of thinking and it's awesome that you've made it this far. You've picked up on foundational coding basics that I along with more experienced programmers use EVERY DAY on the job. If you're serious about breaking into the industry and have committed yourself to the steps I've outlined in this post then you're already off to a great start. 
 
-For added inspiration, below is a link to my resume that got me my current job. Notice the way I follow the tactics above. And yes, I sent it off WITH A TYPO! Oops! Just goes to show you that a strong enough resume will get you an interview every time. <a href="http://luisrochadev.com/resume.pdf" target="_blank">Click here to see my winning resume.</a>
 
-I realize that there are more components towards getting you dream job and I plan to lay out a blueprint for you to help you land that job. Make sure you <a href="#mc_embed_signup" target="_blank">subscribe to my e-mail newsletter</a> or follow me on <a href="https://www.instagram.com/luisrochadev/" target="_blank">Instagram</a> or <a href="https://twitter.com/luisrochadev" target="_blank">Twitter</a> to keep up with my blog posts and get more tips towards accomplishing your dreams and getting that career that you already deserve. 
+The journey from beginner to a hired web developer is long and no two are alike. I hope to help all those interested take important steps towards making that goal a reality. Make sure you <a href="#mc_embed_signup" target="_blank">subscribe to my e-mail newsletter</a> or follow me on <a href="https://www.instagram.com/luisrochadev/" target="_blank">Instagram</a> or <a href="https://twitter.com/luisrochadev" target="_blank">Twitter</a> to keep up with my blog posts and get more tips on how to break into the coding industry. I am always available to help with any questions <a href="mailto:luisrochadev@gmail.com"> via email</a>, so please don't hesitate to reach out.  
