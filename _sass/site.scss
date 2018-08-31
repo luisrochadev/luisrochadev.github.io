@@ -308,9 +308,6 @@ header .entry-meta {
 			margin: 12px 0;
 			width: 100%;			
 		}
-		&:link {
-	  		color: #383838;
-	  	}
 	}
 }
 
@@ -544,18 +541,12 @@ footer {
 	}
 	.social-links{
 		font-size: 3em;
-		@media #{$small} {
-			display: none;
-		}
 		h3{
 			text-align: center;
 		}
 	}
 	#social-prompt {
 		color: $color_tuatara;
-		@media #{$small} {
-			display: none;
-		}
 	}
 }
 
