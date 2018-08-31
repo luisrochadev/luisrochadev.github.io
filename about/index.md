@@ -7,73 +7,79 @@ comments: false
 <div id="emoji-biography">
 	
 	<!-- hiding for now, only show in job hunt -->
-	<!-- <span class="title">
+	<!-- <div class="title">
 		<a class="btn zoombtn" href="/resume.pdf" target="_blank"> View my resume </a>
-	</span> -->
+	</div> -->
 
-	<div>
-		<span>2017</span>
-		<span>Frontend Developer at The Control Group</span>
-		<i class="em em-large_orange_diamond"></i>
+	<div class="single-event">
+		<div>2018</div>
+		<div>Married a British girl</div>
+		<div>👰🏼</div>
 	</div>
 
-	<div>
-		<span>2016</span>
-		<span>Frontend Developer at Interact Intranet </span>
-		<i class="em em-globe_with_meridians"></i>
+	<div class="single-event">
+		<div>2017</div>
+		<div>Frontend Developer at The Control Group</div>
+		<div>🔶</div>
 	</div>
 
-	<div>
-		<span>2015</span>
-		<span>Enrolled in Galvanize Fullstack Web Development Bootcamp</span>
-		<i class="em em-computer"></i>
+	<div class="single-event">
+		<div>2016</div>
+		<div>Frontend Developer at Interact Intranet </div>
+		<div>🌐</div>
 	</div>
 
-	<div>
-		<span>2014</span>
-		<span>Learned HTML, CSS, and Javascript</span>
-		<i class="em em-wrench"></i>
+	<div class="single-event">
+		<div>2015</div>
+		<div>Enrolled in Galvanize Fullstack Web Development Bootcamp</div>
+		<div>💻</div>
 	</div>
 
-	<div>
-		<span>2013</span>
-		<span>Staff Photographer and Social Media manager at San Franpsycho Clothing</span>
-		<i class="em em-tshirt"></i>
+	<div class="single-event">
+		<div>2014</div>
+		<div>Learned HTML, CSS, and Javascript</div>
+		<div>🔧</div>
 	</div>
 
-	<div>
-		<span>2012</span>
-		<span>Photography for Coachella, Outside Lands, and EDC Music Festivals</span>
-		<i class="em em-musical_score"></i>
+	<div class="single-event">
+		<div>2013</div>
+		<div>Staff Photographer and Social Media manager at San Franpsycho Clothing</div>
+		<div>👕</div>
 	</div>
 
-	<div>
-		<span>2011</span>
-		<span>Moved to San Francisco</span>
-		<i class="em em-bridge_at_night"></i>
+	<div class="single-event">
+		<div>2012</div>
+		<div>Photography for Coachella, Outside Lands, and EDC Music Festivals</div>
+		<div>🎼</div>
 	</div>
 
-	<div>
-		<span>2010</span>
-		<span>Began learning photography</span>
-		<i class="em em-camera"></i>
+	<div class="single-event">
+		<div>2011</div>
+		<div>Moved to San Francisco</div>
+		<div>🌉</div>
+	</div>
+
+	<div class="single-event">
+		<div>2010</div>
+		<div>Began learning photography</div>
+		<div>📷</div>
 	</div>
 	
-	<div>
-		<span>2009</span>
-		<span>Invited into YouTube Partner Program at 8k subscribers</span>
-		<i class="em em-raised_hands"></i>
+	<div class="single-event">
+		<div>2009</div>
+		<div>Invited into YouTube Partner Program at 8k subscribers</div>
+		<div>🙌</div>
 	</div>
 
-	<div>
-		<span>2008</span>
-		<span>Established partnerships with brands including InCase, Monster, Mophie, etc</span>
-		<i class="em em-iphone"></i>
+	<div class="single-event">
+		<div>2008</div>
+		<div>Established partnerships with brands including InCase, Monster, Mophie, etc</div>
+		<div>📱</div>
 	</div>
 	
-	<div>
-		<span>2007</span>
-		<span>Started tech-review channel on YouTube</span>
-		<i class="em em-video_camera"></i>
+	<div class="single-event">
+		<div>2007</div>
+		<div>Started tech-review channel on YouTube</div>
+		<div>📹</div>
 	</div>
 </div>

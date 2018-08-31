@@ -1,10 +1,10 @@
 //@extend-elements
 %extend1 {
 	margin: 0;
-	padding: 0;
-	width: 100%;
-	min-height: 100%;
-	font-size: 100%;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
 }
 
 
@@ -13,7 +13,7 @@ html {
 }
 body {
 	@extend %extend1;
-	font-family: $font1;
+	font-family: $font2;
 	@include font-rem($doc-font-size);
 	color: $color_tuatara;
 	background-color: $bodycolor; 
@@ -34,12 +34,11 @@ body {
 	box-sizing: border-box;
 }
 .header {
-	height: 100%;
 	position: relative;
 	width: 100%;
 	min-height: 300px;
 	text-align: left;
-	color: $white;
+	color: $color-shark;
 	@media #{$small} {
 		display: block !important;
 	}
@@ -72,7 +71,13 @@ body {
 	-webkit-align-items: center;
 	-ms-flex-align: center;
 	align-items: center;
+	height: 100%;
+
+	img { 
+		width: 75px;
+	}
 }
+
 .container {
 	width: 36rem;
 	max-width: 550px;
@@ -97,7 +102,7 @@ body {
 	text-align: center;
 	.title {
 	    margin-top: 0;
-	    margin-bottom: 5px;
+	    margin-bottom: 1em;
 	}
 	@media #{$small} {
 		// padding: 0 1em;
@@ -108,8 +113,7 @@ body {
 	max-width: 1200px;
 	margin: 0 auto;
 	background: $white;
-	color: $color_tuatara;
-	padding: 1em 2em;
+	padding: 2em;
 	border-radius: 3px;
 	@include transition(.5s);
 	@media #{$small} {
@@ -293,8 +297,13 @@ header .entry-meta {
 			display: none;
 		}
 	}
-	a {
-		font-weight: 600;
+	img { 
+		width: 75px;
+	}
+	a {	
+		font-family: $font1;
+		letter-spacing: 2px;
+		font-weight: 300;
 		@media #{$small} {
 			margin: 12px 0;
 			width: 100%;			
@@ -514,6 +523,8 @@ footer {
 }
 
 .blog-content{
+
+	color: $color_tuatara;
 	@media #{$small} {
 		h2 {
 			text-align: left;
@@ -523,10 +534,6 @@ footer {
 	@media #{$notsmall} {
 		float: left;
 		width: 66%;
-	}
-
-	a:link {
-		color: #00bbe1
 	}
 }
 
@@ -545,6 +552,7 @@ footer {
 		}
 	}
 	#social-prompt {
+		color: $color_tuatara;
 		@media #{$small} {
 			display: none;
 		}
@@ -555,6 +563,7 @@ footer {
 	width: 100%;
     display: block;
     height: auto;
+    color: $color_tuatara;
     margin: 1em auto;
 	img {
 		float: left;

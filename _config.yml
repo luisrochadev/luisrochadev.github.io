@@ -1,8 +1,8 @@
 # Site
 title:              Luis Rocha
-bio:                'Developer / Designer / Photographer in San Diego, CA'
+bio:                'web developer + photographer'
 description:        "Luis Rocha - Frontend web developer, designer, and photographer in San Diego"
-logo:               '/assets/img/logo.png'
+logo:               '/assets/img/letter-logo.png'
 locale:             en_US
 # url:                http://luisrochadev.github.io
 

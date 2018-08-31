@@ -391,7 +391,9 @@ All this is done for any sub-level being entered.
 }
 
 #photo-drop {
-	font-weight: 600;
+	font-weight: 300;
+	font-family: $font1;
+	letter-spacing: 2px;
 	&:hover {
 		.dropdown-content{
 			display: block;
